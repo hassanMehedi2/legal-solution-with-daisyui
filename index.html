@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>legal solutions</title>
+
+    <!-- tailwind and daisyUi cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.9.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Lato:wght@400;700;900&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awsome link -->
+    <script
+      src="https://kit.fontawesome.com/ea233e1c0b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- tailwind custom style  -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- custom style  -->
+    <style>
+      .text-garamond {
+        font-family: "EB Garamond", serif;
+      }
+      .text-poppins {
+        font-family: "Poppins", sans-serif;
+      }
+      .bg-color-primary{
+        background-color: #B68C5A;;
+      }
+    </style>
+  </head>
+
+  <body class="text-garamond">
+    <header class="container mx-auto">
+      <!-- nac bar  -->
+      <nav class="my-14 text-poppins">
+        <div class="navbar flex flex-col md:flex-row ">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+              <li><a>Home</a></li>
+              <li>
+                <a>Services<span><i class="fa-solid fa-chevron-right"></i></span></a> </li>
+                <li><a>Cases<span><i class="fa-solid fa-chevron-right"></i></span></a></li>
+                <li><a>Blog<span><i class="fa-solid fa-chevron-right"></i></span></a></li>
+                <li><a>Contact Us<span><i class="fa-solid fa-chevron-right"></i></span></a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost normal-case text-xl"
+              ><img src="./images/logo2.png" alt=""
+            /></a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-base">
+              <li><a>Home</a></li>
+                <li>
+                  <a>Services<span><i class="fa-solid fa-chevron-right"></i></span></a> </li>
+                  <li><a>Cases<span><i class="fa-solid fa-chevron-right"></i></span></a></li>
+                  <li><a>Blog<span><i class="fa-solid fa-chevron-right"></i></span></a></li>
+                  <li><a>Contact Us<span><i class="fa-solid fa-chevron-right"></i></span></a></li>
+               
+            </ul>
+          </div>
+          <div class="navbar-end  py-8  md:p-0 ">
+            <a class="btn  bg-color-primary text-white text-lg font-medium ">Free Consultation</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero section  -->
+      <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
